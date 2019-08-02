@@ -6,6 +6,7 @@ spring:
     name: op-user-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    # WARNING: 数据库可能会被回收
     url: jdbc:mysql://47.103.14.43:3306/jenkins?Unicode=true&characterEncoding=utf8
     username: root
     password: 123456
